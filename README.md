@@ -12,7 +12,7 @@
 
 ## Description
 
-_{FINISH DESCRIPTION AT END}_
+_Two page website with main index page showcasing six github projects that list a short description, which languages are used, the name, and links to their repos and to the published github pages. About page offers information about the developer, including skills, work history, education, hobbies, and general bio._
 
 ## Setup/Installation Requirements
 
