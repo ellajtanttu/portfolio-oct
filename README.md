@@ -1,6 +1,6 @@
-# _PROJECT NAME_
+# _Portfolio Oct 2021_
 
-#### _EPICODUS PRACTICE: Sample one-sentence description_
+#### _Friday Independent Project: Epicodus Project Portfolio_
 
 #### By _**Ella Tanttu**_
 
@@ -8,22 +8,23 @@
 
 * _CSS_
 * _HTML_
-* _JAVAscript_
 * _Markdown_
-* _Git Repositories_
 
 ## Description
 
-_{Detailed description that explains the project and what concepts were being practiced.}_
+_{FINISH DESCRIPTION AT END}_
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/url-path in your browser_
+* _Navigate to https://github.com/ellajtanttu/portfolio-oct in your browser_
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
-* _open DIRECTORYNAME/index.html in your browser_
+* _open port-oct/index.html in your browser_
 * _Open files in VS Code to edit_
+
+## View Live Website
+** https://ellajtanttu.github.io/portfolio-oct/ **
 
 ## Known Bugs
 
