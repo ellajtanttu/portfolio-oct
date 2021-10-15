@@ -24,7 +24,7 @@ _{FINISH DESCRIPTION AT END}_
 * _Open files in VS Code to edit_
 
 ## View Live Website
-** https://ellajtanttu.github.io/portfolio-oct/ **
+_https://ellajtanttu.github.io/portfolio-oct/_
 
 ## Known Bugs
 
