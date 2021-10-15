@@ -66,6 +66,7 @@
 
 .card-body {
   padding: 0px;
+  /* margin-bottom: 3vh; */
   /* border: none; */
 }
 
@@ -74,16 +75,40 @@
   padding-bottom: 2vh;
 }
 
-.card-text {
-  border: none;
-  padding: 5px;
+div .card-text {
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-bottom: 3vh;
-  box-sizing: border-box;
 }
 
-.card button {
+.button-sm {
   border: none;
-  border-radius: 35px
+  border-radius: 35px;
+  padding-bottom: 30px;
+  display: inline;
+}
+
+.card span {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 1px;
+  padding-left: 2px;
+}
+
+p .card-text {
+  text-align: left;
+}
+
+.html {
+  color: red;
+}
+
+.css {
+  color: blue;
+}
+
+.js {
+  color: orange;
+}
+
+.card-text:last-child {
+  margin: 2vh;
 }
