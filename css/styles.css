@@ -96,20 +96,7 @@
 .card {
   max-width: 85vw;
   margin-bottom: 30px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.card-img-top {
-  margin: 0px;
-  padding-bottom: 2vh;
-}
-
-div .card-text {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  border-color: rgb(241, 241, 241);
 }
 
 .card span {
@@ -141,15 +128,15 @@ p .card-text {
 }
 
 .html {
-  color: red;
+  color: rgb(189, 79, 6);
 }
 
 .css {
-  color: blue;
+  color: rgb(6, 120, 165);
 }
 
 .js {
-  color: orange;
+  color: rgb(46, 40, 75);
 }
 
 .col-lg-4 ul {
@@ -162,6 +149,16 @@ p .card-text {
   list-style-type: none;
   font-size: .75em;
   margin: 20px;
+}
+
+.col-lg-6 h3 {
+  font-family: 'Andada Pro', serif;
+  font-size: 2em;
+  font-style: italic;
+  text-transform: lowercase;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(218, 186, 47);
+  line-height: 25px;
 }
 
 .languages{
@@ -183,6 +180,10 @@ p .card-text {
 #work, #education {
   list-style-type: none;
   margin-left: -20px;
+}
+
+#introRow {
+  margin-bottom:45px
 }
 
 a {
