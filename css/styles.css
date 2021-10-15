@@ -22,7 +22,7 @@
 
 .nav-link:hover {
   background-color: black;
-  color: rgb(190, 100, 26);
+  color: rgb(218, 186, 47);
 }
 
 .hero-unit {
@@ -91,7 +91,6 @@ div .card-text {
 .btn-sm {
   border: none;
   border-radius: 35px;
-  /* display: inline; */
   padding-right: 20px;
   padding-left: 20px;
   background-color: rgb(218, 186, 47);
@@ -100,6 +99,7 @@ div .card-text {
   text-transform: none;
   text-decoration: none;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card span {
@@ -128,20 +128,63 @@ p .card-text {
   margin: 2vh;
 }
 
-.bioImg {
-  max-width: 100%;
+.card ul {
+  list-style-type: none;
+  font-size: .75em;
+  margin-left: -35px;
 }
 
-/* .bio h1 {
-  display: block;
-} */
+.languages{
+ margin-left: 0;
+ font-weight: 800;
+}
 
-.col-lg-5 {
-  width: 100%;
-  display: block;
-  margin: auto;
-} 
+.bioImg {
+  max-width: 360px;
+  max-height: 360px;
+  border-radius: 180px;
+}
 
+.container {
+  font-family: 'Andada Pro', serif;
+  font-weight: 600;
+}
+
+#about {
+  max-width: 800px;
+}
+
+.container h1 {
+  font-family: 'Andada Pro', serif;
+  font-size: 5em;
+  font-style: italic;
+  font-variant-caps: all-small-caps;
+}
+
+.container h2 {
+  font-family: 'Andada Pro', serif;
+  font-size: 4em;
+  font-style: italic;
+  font-variant-caps: all-small-caps;
+}
+
+.container p,li{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+#work, #education {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+a {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.25em;
+  color:black
+}
 
 font-family: 'Andada Pro', serif;
 font-family: 'Montserrat', sans-serif;
