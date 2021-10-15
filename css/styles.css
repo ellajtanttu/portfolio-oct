@@ -112,3 +112,17 @@ p .card-text {
 .card-text:last-child {
   margin: 2vh;
 }
+
+.bioImg {
+  max-width: 100%;
+}
+
+/* .bio h1 {
+  display: block;
+} */
+
+.col-lg-5 {
+  width: 100%;
+  display: block;
+  margin: auto;
+} 
