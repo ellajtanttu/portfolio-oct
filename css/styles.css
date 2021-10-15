@@ -27,29 +27,37 @@
 
 .hero-unit {
   background-image: url("https://images.unsplash.com/photo-1533735380053-eb8d0759b24a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2162&q=80");
-  height: 55vh;
+  height: auto;
   padding: 8%;
 }
 
-.hero-unit button {
+.hero-unit .btn {
   font-variant-caps: all-small-caps;
   letter-spacing: 1px;
-  color: white;
+  border: none;
 }
 
-.hero-unit button:hover {
+.hero-unit .btn:hover {
   font-variant-caps: all-small-caps;
   letter-spacing: 1px;
-  color: rgb(190, 100, 26);
-}
-
-.hero-text {
-  position: absolute;
-  top: 25%;
+  color: rgb(163, 163, 163));
+  border: none;
 }
 
 .hero-text h1 {
   padding-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 5.5em;
+  color: white;
+}
+
+.hero-text h4 {
+  font-family: 'Andada Pro', serif;
+  font-weight: 600; 
+  font-style: italic;
+  font-size: 2em;
+  color: rgb(187, 185, 184);
 }
 
 .container {
@@ -80,11 +88,18 @@ div .card-text {
   margin-right: 2vw;
 }
 
-.button-sm {
+.btn-sm {
   border: none;
   border-radius: 35px;
-  padding-bottom: 30px;
-  display: inline;
+  /* display: inline; */
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(218, 186, 47);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
+  color: white;
 }
 
 .card span {
@@ -126,3 +141,7 @@ p .card-text {
   display: block;
   margin: auto;
 } 
+
+
+font-family: 'Andada Pro', serif;
+font-family: 'Montserrat', sans-serif;
